@@ -1,6 +1,6 @@
 ---
 name: kivo-white-model-video
-description: Create, revise and render white-model or clay previs videos (白模、灰模、预演) in Three.js and HyperFrames, then upload approved MP4s to the Kivo Studio asset library for use as Seedance 2.5 video references. Use for camera moves, staging, motion paths and timing before AI video generation.
+description: Use when the user asks for a previs, white-model, clay, or greybox shot; camera blocking, staging, or motion paths from a text prompt; or a local reference video for Kivo Studio. Builds an editable Three.js scene, a reviewable preview, and an MP4; uploads or starts Seedance generation only with authorization.
 ---
 
 # Kivo white-model video
