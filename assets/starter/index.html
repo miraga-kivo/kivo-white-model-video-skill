@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>White model · Walk to the door</title>
+  <style>
+    html, body { margin: 0; overflow: hidden; background: #c9c9c9; }
+    #white-model { position: relative; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <main id="white-model" data-composition-id="white-model" data-start="0"
+        data-width="1280" data-height="720" data-duration="5" data-fps="24">
+    <canvas id="stage" aria-label="White model shot"></canvas>
+  </main>
+  <script src="./vendor/gsap.min.js"></script>
+  <script>window.__timelines = window.__timelines || {};</script>
+  <script type="module" src="./scene.mjs"></script>
+</body>
+</html>

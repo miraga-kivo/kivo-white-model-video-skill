@@ -1,0 +1,19 @@
+{
+  "name": "kivo-white-model-shot",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "prepare": "node stage-dependencies.mjs",
+    "preview": "hyperframes preview",
+    "lint": "hyperframes lint",
+    "render": "hyperframes render"
+  },
+  "dependencies": {
+    "gsap": "3.15.1",
+    "hyperframes": "0.9.37",
+    "three": "0.187.0"
+  }
+}
